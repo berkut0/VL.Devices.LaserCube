@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="FnH9XhY5DzIOPzHhoHxCr5" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="VSbwZgPBfXVPAKPSJpufPw" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+  <Patch Id="TsDtuhrsWDBQTKRZgbdNVW">
+    <Canvas Id="B89URTFib0iMLjtP4UP45R" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="CUiG5mxGpFPOOCBga5TzKd">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Aa4QtuZjPhVO0v577xqV7H">
+        <Canvas Id="HNHocJBV9lcNbWZ3PYe741" CanvasType="Group">
+          <Node Bounds="128,753,407,462" Id="SKWmSqnOa8XOraouq5g83D">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Comment" />
+            </p:NodeReference>
+            <Patch Id="NoCgVQgefnHOTdgXmNHzUO" ManuallySortedPins="true">
+              <Patch Id="FLJVzrA6lwFMGWvmzRbLb1" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="F6yuZfwx7a0LxxzREWHGok" Name="Update" ParticipatingElements="VWCIQS8YVE7Pi63ROnuwXr,QrmIJOPi4lMPW518EXOm79,Tr8AKP5M28ZLmNMiBL5T5n,KbLUFIfqNNIQHxuMJqZJVt,E5mCX8tmyPCOGWj5s9iscY,JxghkgVoxD6PR8mBnth8SR,RIzxnNdp1eBOQySVYPLwq7,F2gMOZsnYtfQKtqrgXXILn,SPNs32Gz0PHMfb5VMVUNMk,VPSlPHYBuLVNJtMbAF7Bk2,UYn2Zc0hWQaOp4Fd3GUaEz,MSOjQej4jrhLUexAwEu2Ci,Ljz9iFUVzzuLXxUk32R8lh,CNPkNKnvvbMNPhpLVdofzc" ManuallySortedPins="true" />
+              <Patch Id="OFS0h48bjv4NzZUhRc6fR7" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="164,915,185,19" Id="AuxE5C9JFTLP4CxmPbfGHe">
+                <p:NodeReference LastCategoryFullName="Devices.LaserCube" LastDependency="VL.Devices.LaserCube.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="LaserCube" />
+                </p:NodeReference>
+                <Pin Id="LjNsdtGFSdfNBVjW5ZXP5k" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="L6Tf90xiGD2OEP6jT3UGxo" Name="Pts" Kind="InputPin" />
+                <Pin Id="KulZPwmTbHdORdfKYxtxjb" Name="IP" Kind="InputPin" />
+                <Pin Id="UH8xGDV9qv2Mm1RGFn3ryw" Name="SEND" Kind="InputPin" />
+                <Pin Id="J6cUFg9C4zQLFUJ2nWcGdm" Name="ForceUpdate" Kind="InputPin" />
+                <Pin Id="OcTddK9AledOwhphzp5EXw" Name="Configuration" Kind="OutputPin" />
+                <Pin Id="CZLrpoXgLxTP9AKX5PC2AD" Name="Output Enabled" Kind="OutputPin" />
+                <Pin Id="VuG2J3VCWWCPMOZoa2rXed" Name="Lock Enabled" Kind="OutputPin" />
+                <Pin Id="AF4qmtWBA6EMf9sOQGJ8ul" Name="Over Temperature" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="NCSrjcu5RNNNJaqTjgsrNn" Name="Packet Errors" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="BgUsKXq0kx0NmVMMOB8qw4" Name="DACRate" Kind="OutputPin" />
+                <Pin Id="SoDHQJXaFd1POPMJrR5fn0" Name="RXBuffer Free" Kind="OutputPin" />
+                <Pin Id="AMp2mgLBboFOZDpDMgwldq" Name="RXBuffer Size" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="V1Qdtf633fdLbCoANATfto" Name="Battery Percent" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="P1rQvQacLniN0p9H4YEOLG" Name="Temperature" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="MCNFcSsnetjNK8QCY9gJSU" Name="Connection Type" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="Vbo0Ln4RbUoL9Ht3wDh3I2" Name="Serial Number" Kind="OutputPin" />
+                <Pin Id="JtMgpVvvwFzQLuHqzrxZ1x" Name="Model Number" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="GUFatdzNyhVOcS0zdmgm2T" Name="Model Name" Kind="OutputPin" />
+                <Pin Id="QQ5phAjPa7dNDow6tqx0xA" Name="IP" Kind="OutputPin" />
+                <Pin Id="B4RSvujqDeXO9lfuU1Lssd" Name="FrameNumber" Kind="OutputPin" />
+                <Pin Id="CdD3LeHAb1VPPoPqduhKLW" Name="BuffersPerFrame" Kind="OutputPin" />
+                <Pin Id="Rj4E8K6Nx8FPoz8M4U3yVD" Name="SendEnableOutput" Kind="InputPin" IsHidden="true" />
+                <Pin Id="JSYdEjmH1l6OERl0AcBwbe" Name="SendDisableOutput" Kind="InputPin" IsHidden="true" />
+                <Pin Id="VyPi9cfOFxSPhRaeZy45JX" Name="DACSampleRate" Kind="InputPin" />
+                <Pin Id="C9b1Z0RGOH2L6RKC6Hs7IR" Name="PacketDelayMicroseconds" Kind="InputPin" IsHidden="true" />
+                <Pin Id="VjUOi8ALjEcMId0UpeXmZO" Name="MessageDelayMicroseconds" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DPjZrv6CxjfNQi5JQ0s010" Name="ChunkSize" Kind="InputPin" IsHidden="true" />
+                <Pin Id="MCgMelv4TYaNXfljCyqP91" Name="FreeBufferLimit" Kind="InputPin" IsHidden="true" />
+              </Node>
+              <Pad Id="QjGWZiHeTrQLsQVTqqXUxu" SlotId="J8g3JHRqHWyQHRVoIuE0Nr" Bounds="166,781" />
+              <Slot Id="J8g3JHRqHWyQHRVoIuE0Nr" Name="Pts" />
+              <Pad Id="R5b77RK3kwNQJ23kWDIUDu" Comment="SEND" Bounds="259,819,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="RqnsuSsOVWXMf59n4f0e9r" Comment="IP" Bounds="210,787,84,15" ShowValueBox="true" isIOBox="true" Value="192.168.1.23">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="J878AS5jYf0OlvSDv6PdZq" Comment="ForceUpdate" Bounds="302,856,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="VQucJSi6XGjPlBoscmdAxv" Comment="DACSampleRate" Bounds="346,895,38,15" ShowValueBox="true" isIOBox="true" Value="30000">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="VffuEsmwM4iQRx8d9pexDa" Comment="Output Enabled" Bounds="181,1014,121,33" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="I0Uc1yVgkm5LlTXPiBJOzf" Comment="Lock Enabled" Bounds="181,1055,121,33" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="G4zJncrqTcXLteEItX03P2" Comment="DACRate" Bounds="181,1096,121,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="R1oyNirUMMmQOTPOvdIJdF" Comment="RXBuffer Free" Bounds="181,1119,121,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="GVwgOFRqMWrMo1UJly5gCG" Comment="Serial Number" Bounds="181,1142,121,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="U90LPwBmKEKPysDGX4rHhQ" Comment="Model Name" Bounds="181,1165,121,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="BzmBbV8ecSSPOghHpIBx7c" Comment="IP" Bounds="181,1188,121,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="Ndf890owixhO9HAgQHfu70" Comment="FrameNumber" Bounds="392,981,35,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="Hb6BjJ2NGMtQCY1tpoJM5r" Comment="BuffersPerFrame" Bounds="392,961,35,15" ShowValueBox="true" isIOBox="true" />
+            </Patch>
+            <Pin Id="SZ3m1KuYqa2MW3wETD9spH" Name="Node Context" Kind="InputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="608,751,554,818" Id="DX6E0eiq3WKMJOdk8EYXUL">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Comment" />
+            </p:NodeReference>
+            <Patch Id="HXiAReYXge3MZXprUZxaPm" ManuallySortedPins="true">
+              <Patch Id="Hf8n8W68ciYPsWWMXVJUgH" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="F1iMdC1S6fePGjxnSYFW99" Name="Update" ParticipatingElements="QtVwSLwSMWxNNi8lxt5g4V,S2LPhecIceSOhNo2236Ttx,NbTfP8NcOWMQCTwDrclcAo,FHzDFhI1OnsLMkUtrsuWya,T7sAWjDZsAIMtc1aQJmcJD,JyBrdghyXflLhFuG3Qxstm,OY8D5uBGy0MQAuU7Tg7lMW,Fs8DkMTKpkIMcbBlP2eKQy,C5qx4auYgzHLE2V65dzREO,NkClDdEGTmaLhplWOLcFUa,NmfHL26Ci8mOjDqvDjA4an,FkmVLoyQSt7L1KXh7S1eL4,GxcMFvdVemYPglPNcBfI5y,T0HERMC66qkPlO8PAjvHPH,LTk6s43X3PVNFuuVpsqxXk,VxbxMUzW3L9Oi0XcFuDrFE,Tre44HLfDBhNJzpu1dYu2K,DFw9E7V7JneQTwySZKB8RB,AaADXj4eKsOODsH5TOrRkJ,GkOCFORQWs7OeLplRjzezN,QiabvmlAJNsP1LYEwWtSj2,RNq4gLBNgWkNcgzIpCDmij,RJe6DwrtKpuMk8es0us1MG,IUxHHWwqtJxOuejVSxMOlm,TFT5agGRn5HPjJtOAPigdk,MnJojvPshV9P3f3Xy3wuHo,VnCWkz6xBKkNGpFfUWWWsf" ManuallySortedPins="true" />
+              <Patch Id="LFbRDBSGIIoPB9Pdtt4yGv" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="643,1108,325,19" Id="JYsz9Oph1QSM7EHRdR5KVy">
+                <p:NodeReference LastCategoryFullName="Devices.LaserCube" LastDependency="VL.Devices.LaserCube.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="LaserCube" />
+                </p:NodeReference>
+                <Pin Id="G38OoEqt44jLSY21zywnmk" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="GPTJoU2QE7TMbyLVKyupEL" Name="Pts" Kind="InputPin" />
+                <Pin Id="SAIWzaOGDMeOeV3uvgb4ya" Name="IP" Kind="InputPin" />
+                <Pin Id="IwYRrM7awQFQPAOKUtfJEP" Name="SEND" Kind="InputPin" />
+                <Pin Id="Vx5jCe1nlieOyBZnPbEz8e" Name="ForceUpdate" Kind="InputPin" />
+                <Pin Id="DlklKYEgR81P6l6ICqBhaa" Name="Configuration" Kind="OutputPin" />
+                <Pin Id="Akvi0PgruHQMAuwXEFSSGx" Name="Output Enabled" Kind="OutputPin" />
+                <Pin Id="MMNnxr3cNhnNbqy5NXHsM4" Name="Lock Enabled" Kind="OutputPin" />
+                <Pin Id="PcPxptzRMFeNHw7hOXKfrB" Name="Over Temperature" Kind="OutputPin" />
+                <Pin Id="NTsm6zazhnuLhUsYEGFzOx" Name="Packet Errors" Kind="OutputPin" />
+                <Pin Id="Jhs6QSSiQVmLsES4dJ3hjv" Name="DACRate" Kind="OutputPin" />
+                <Pin Id="RpbsFoGvjOpMD7wcK1OIpu" Name="RXBuffer Free" Kind="OutputPin" />
+                <Pin Id="RRLRMDuhyrfMBUmWzeCpvR" Name="RXBuffer Size" Kind="OutputPin" />
+                <Pin Id="GwZrc0MWwi3OWLttrhWHcV" Name="Battery Percent" Kind="OutputPin" />
+                <Pin Id="Et4NS8gBmA1OVrbYIhWtCG" Name="Temperature" Kind="OutputPin" />
+                <Pin Id="LamqG02zdAEM1d5956tvv4" Name="Connection Type" Kind="OutputPin" />
+                <Pin Id="Cg8gRL0n3nRPfmC0bLbUYe" Name="Serial Number" Kind="OutputPin" />
+                <Pin Id="ELtymmA4fgKLT58TEipuWK" Name="Model Number" Kind="OutputPin" />
+                <Pin Id="D11UdF0ZqvkNn7vDBMnD4e" Name="Model Name" Kind="OutputPin" />
+                <Pin Id="D1zUTY7wkTpLb4HjK0VYCN" Name="IP" Kind="OutputPin" />
+                <Pin Id="Qt3FkmkBjPmO1ax3FLC9ox" Name="FrameNumber" Kind="OutputPin" />
+                <Pin Id="G7aJdgi1OLpO8GOWpauZ0I" Name="BuffersPerFrame" Kind="OutputPin" />
+                <Pin Id="DnZF5XUhXDXLygtD704lmW" Name="SendEnableOutput" Kind="InputPin" />
+                <Pin Id="S5dJG1n2inuOWw9J5E5SqZ" Name="SendDisableOutput" Kind="InputPin" />
+                <Pin Id="D3ObAjp1f0vOFlYTv9IONg" Name="DACSampleRate" Kind="InputPin" />
+                <Pin Id="ElR1flaUTNzQLpCbt03j3k" Name="PacketDelayMicroseconds" Kind="InputPin" />
+                <Pin Id="NaxOWD1DSbkNfg8carvSoT" Name="MessageDelayMicroseconds" Kind="InputPin" />
+                <Pin Id="V0fe8q3g2iGPqeCPy6AxaU" Name="ChunkSize" Kind="InputPin" />
+                <Pin Id="DJezr7ADIWFLyMgaVNok2P" Name="FreeBufferLimit" Kind="InputPin" />
+              </Node>
+              <Pad Id="Kpou8HkL13eNlht5nv3OhV" SlotId="IVP8pHUorVePZpa6baYqRE" Bounds="646,779" />
+              <Slot Id="IVP8pHUorVePZpa6baYqRE" Name="Pts" />
+              <Pad Id="ATcvb8TouUDQUvynIULa30" Comment="SEND" Bounds="711,804,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="OOrg1g8yIfyPsybvXq2BCH" Comment="IP" Bounds="677,780,84,15" ShowValueBox="true" isIOBox="true" Value="192.168.1.23">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="SFoc8wXhfq2L9a4KKzdRmc" Comment="ForceUpdate" Bounds="743,846,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="KQd0lEACJezOxfXpYmNvgC" Comment="DACSampleRate" Bounds="839,975,38,15" ShowValueBox="true" isIOBox="true" Value="30000">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="Oz4umn0kchSMxRD7sCX3IT" Comment="FrameNumber" Bounds="1019,1232,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="Dn5Qa7eDQpxOQBmd0zUM4r" Comment="BuffersPerFrame" Bounds="1019,1209,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="DAgFJAFxbyxOh98Z1C2Avn" Comment="Output Enabled" Bounds="665,1201,233,30" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="GCG8wArb1jaPy9tzS1LhjO" Comment="Lock Enabled" Bounds="665,1241,233,30" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="Tgd0H0Y8f5eNZzSMfq6882" Comment="Over Temperature" Bounds="665,1281,233,30" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="EzaN56XfhLiPuRoIpOHsSU" Comment="Packet Errors" Bounds="665,1321,233,30" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="Tzh5MbNw6kwQdsonLmMcYE" Comment="DACRate" Bounds="665,1361,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="C5PwFozcqhVPbXld0W1N2V" Comment="RXBuffer Free" Bounds="665,1381,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="DJzMyEaQNIKNiyGRVKgjMj" Comment="RXBuffer Size" Bounds="665,1401,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="RI58vhuk7MSPZquIUENQEb" Comment="Battery Percent" Bounds="665,1421,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="E7c6X5DZaLrN3AmLXVLp0W" Comment="Temperature" Bounds="665,1441,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="JkEiOBldAjEO1RIujSxjae" Comment="Connection Type" Bounds="665,1461,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="POjRRzetadDO941PBn55ME" Comment="Serial Number" Bounds="665,1481,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="OwJytfgNAqhPNAKkyOKyxY" Comment="Model Number" Bounds="665,1501,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="VBiwNzCI0f9N6Z937EVBHP" Comment="Model Name" Bounds="665,1521,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="EuGVYWpoiPUNcaFemwn7qc" Comment="IP" Bounds="665,1541,233,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="LpNtXXqKrQSMdxv1FQWbB9" Comment="SendEnableOutput" Bounds="775,888,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="Fhd4qrMpUFtNJgCN8TGTyO" Comment="SendDisableOutput" Bounds="806,931,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+                <p:ValueBoxSettings>
+                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                </p:ValueBoxSettings>
+              </Pad>
+              <Pad Id="AiBMsvy1oUwPKsqxn93KE2" Comment="PacketDelayMicroseconds" Bounds="870,1002,35,15" ShowValueBox="true" isIOBox="true" Value="1000">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="N01ZKnAwQJyOiiJBOLarXd" Comment="MessageDelayMicroseconds" Bounds="902,1033,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="BZqrxsX16eWNLZyBZQGVOt" Comment="ChunkSize" Bounds="933,1062,35,15" ShowValueBox="true" isIOBox="true" Value="146">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="LeWgMKu7XAeP20IizfKV1N" Comment="FreeBufferLimit" Bounds="965,1090,35,15" ShowValueBox="true" isIOBox="true" Value="1000">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+            </Patch>
+            <Pin Id="MKhT00LiJSqPObrttle8b5" Name="Node Context" Kind="InputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="Hn2OAEEC9bSOxIyr7rGyt6" Bounds="132,503,466,74" ShowValueBox="true" isIOBox="true" Value="Nodes can be used in two flavors - simplified and advanced.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="S9ETnGGt49vOJfr6jRpQ4Y" Bounds="130,580,512,125" ShowValueBox="true" isIOBox="true" Value="To select the missing options, just click on the middle button on a node and select the desired option ('Show...'). Most of the settings you may never need, but I'll focus on them below. If you don't want to deal with them, just leave the options you don't need unchecked.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="S5NZyNac6mNMKe6z8MrBO4" Bounds="128,1242,403,355" ShowValueBox="true" isIOBox="true" Value="Not much is available in the simple version:&#xD;&#xA;&#xD;&#xA;You have to pass Spread&lt;LaserPoint&gt; to the input. You also have to specify the IP address of the device. The SEND button really just replaces your point set with an empty point set. ForceUpdate makes a request to the device to get a set of bytes from the device to convert to state. You don't need to call it on purpose, as it is sometimes called in the main loop just as it is. You can also set DACRate, the usual value of which is 30000, but may vary depending on your tasks. The original code from WickedLaser has a complex relationship between DACRate and other parameters, but leave that for advanced inputs that are hidden.&#xD;&#xA;&#xD;&#xA;You can see some parameters in the output. In general, this is data taken directly from the bytes that the device uses to respond to requests. The names speak for themselves, but I'd like to point out that 'Output Enabled' is obviously a bit outdated in the firmware, and the only thing it says is that you can't see the text that pops up when you press the button on the back panel.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="NBEANfGkmhWLpNrGJ6cxEF" Bounds="83,60,958,436" ShowValueBox="true" isIOBox="true" Value="LASERS ARE DANGEROUS.&#xD;&#xA;USE WITH CAUTION.&#xD;&#xA;THE AUTHOR IS NOT RESPONSIBLE FOR ANY MISUSE OF THIS CODE.&#xD;&#xA;IF YOU USE A LASER, YOU ACKNOWLEDGE THAT YOU ARE AWARE OF ALL PRECAUTIONS.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">32</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Ddve1cLFhvVNy9HwpqT0uE" Bounds="1170,771,433,375" ShowValueBox="true" isIOBox="true" Value="Basically, the code works by breaking a sequence of &quot;points&quot; into chunks and then sending them to the device using a special algorithm.&#xD;&#xA;&#xD;&#xA;The laser draws the buffer as fast as it can. It is not hard to guess that if there are few points in the array, it can draw the buffer many times per frame. The buffer will fill up to a certain limit, after which a chunk will not be sent until it receives from the device that the buffer has become larger than 'FreeBufferLimit'. Updates to the internal state (e.g. free buffer size) are made by receiving bytes from the device, which are sent automatically in response to messages.&#xD;&#xA;&#xD;&#xA;There are two delays between sending chunks and between sending the next buffer, called 'PacketDelayMicroseconds' and 'MessageDelayMicroseconds' respectively.&#xD;&#xA;&#xD;&#xA;In this way you can manipulate the delays, chunk size and buffer limit to fine-tune the laser for your application. You may even want to write an algorithm to control these processes depending on your point buffer configuration.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DuP8ZBtqjliMJ4kJWkw52E" Bounds="1170,1199,363,366" ShowValueBox="true" isIOBox="true" Value="BufferPerFrame helps you to understand how fast the current point buffer is being drawn. The algorithm is as follows:&#xD;&#xA;&#xD;&#xA;1. the point buffer must be chunked. If you exceed the MTU of your network by one chunk, the network will drop those packets. 146 points per chunk fits into the standard 1500 bytes per packet. But in general, if you experiment with the size of the chunks enough, you'll find that reducing the size can also be useful.&#xD;&#xA;&#xD;&#xA;2. Chunks are sent to the device with a delay between sends equal to 'PacketDelayMicroseconds'.&#xD;&#xA;&#xD;&#xA;3. If the buffer is smaller than the specified limit, the chunk is not sent, it is discarded.&#xD;&#xA;&#xD;&#xA;4. The cycle is repeated with the delay specified in 'MessageDelayMicroseconds', incrementing the frame number.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="FdwPCLUEqs3NkczuYxjDPJ" Bounds="418,1010,129,80" ShowValueBox="true" isIOBox="true" Value="About the BuffersPerFrame on the right side of this canvas. &gt;&gt;&gt;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="220,1793,93,19" Id="Q05MR72AnehMOZIidZBKcL">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Devices" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <Choice Kind="OperationCallFlag" Name="CreateLaserPoint" />
+            </p:NodeReference>
+            <Pin Id="KzMKReVaIVXOv23hqAHCM1" Name="XY" Kind="InputPin" />
+            <Pin Id="VACikjFetvqQRom3d70WYG" Name="Color" Kind="InputPin" />
+            <Pin Id="SjjAD8VN9RVQJp2dEt5OeE" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="KuiIBy4ul0NPh7XgkAf1a5" Comment="Color" Bounds="311,1740,50,21" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="J9uyBXmfXItPh9qhsLn8yZ" Comment="XY" Bounds="224,1745,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="427,1792,85,19" Id="E3Ntf9bnpncLnnQZ5qXBk9">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Devices" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <Choice Kind="OperationCallFlag" Name="CreatePoint" />
+            </p:NodeReference>
+            <Pin Id="FW9ehgHuG1WNG46Jc5CxDl" Name="X" Kind="InputPin" />
+            <Pin Id="FsJtHa0I8mmPYBwU59BZkv" Name="Y" Kind="InputPin" />
+            <Pin Id="PGq9usF93rcNPm2eCsLLkh" Name="R" Kind="InputPin" />
+            <Pin Id="EIwnFLRzBvPMbmT8VZVDm1" Name="G" Kind="InputPin" />
+            <Pin Id="TQKSK84tIQwLzikNrxYC83" Name="B" Kind="InputPin" />
+            <Pin Id="ENZSiZbeQ1LNJGguBRHGrH" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="M1p11oerd30PsU1fpStq6j" Bounds="150,1686,418,196" />
+          <Node Bounds="672,1726,71,19" Id="S9eLu7zIV7bPErz2pS56cW">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube.Utils" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Devices" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <CategoryReference Kind="Category" Name="Utils" />
+              <Choice Kind="OperationCallFlag" Name="ColorToRGB" />
+            </p:NodeReference>
+            <Pin Id="H9oIIcSnSfUMGQzPGTVVW6" Name="Color" Kind="InputPin" />
+            <Pin Id="HaOqjKFtWfLL3KX8CJnnGt" Name="R" Kind="OutputPin" />
+            <Pin Id="Eo1PbGnqAO8LqYTTDgTGqY" Name="G" Kind="OutputPin" />
+            <Pin Id="Hs7t6hzs98eNpunmE6L4Lj" Name="B" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="672,1764,99,19" Id="OfvxJVJXmDDPohBhO5XumO">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube.Utils" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <CategoryReference Kind="Category" Name="Utils" />
+              <Choice Kind="OperationCallFlag" Name="MakeHollowPoints" />
+            </p:NodeReference>
+            <Pin Id="S2VzrEqYIOcOZKaZO05rmR" Name="Input" Kind="InputPin" />
+            <Pin Id="G4Cwphm32CmPn0g7bQ4CDi" Name="StartRepeat" Kind="InputPin" />
+            <Pin Id="ArWJd9BBuSGPN0L4XFmjNq" Name="EndRepeat" Kind="InputPin" />
+            <Pin Id="M1KYAX6dD7WLaR6weVpmPE" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="672,1802,81,19" Id="VfkHf0ZyqcXOGt4Ajbc6r6">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube.Utils" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <CategoryReference Kind="Category" Name="Utils" />
+              <Choice Kind="OperationCallFlag" Name="RepeatBounds" />
+            </p:NodeReference>
+            <Pin Id="HF7DKQNpjdwNuWSVD5mkmr" Name="Input" Kind="InputPin" />
+            <Pin Id="PpmyWaKEJ3QOVv9Jm78fOZ" Name="StartRepeat" Kind="InputPin" />
+            <Pin Id="TSnR78r0AnDMUZbS51K0LG" Name="EndRepeat" Kind="InputPin" />
+            <Pin Id="GDmwn8vrIaGOgbOjjKRWVZ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="672,1840,99,19" Id="UsJnIk4VuoGQX56mN06EHR">
+            <p:NodeReference LastCategoryFullName="Devices.LaserCube.Utils" LastDependency="VL.Devices.LaserCube.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="LaserCube" />
+              <CategoryReference Kind="Category" Name="Utils" />
+              <Choice Kind="OperationCallFlag" Name="RepeatLaserPoints" />
+            </p:NodeReference>
+            <Pin Id="TRabNAD8dDFLPP80KjVzis" Name="Input" Kind="InputPin" />
+            <Pin Id="Ejsow7TXBl5Py55ltxgOiP" Name="Iteration Count" Kind="InputPin" />
+            <Pin Id="EHdCglrYzRRQOZSFJVPlyJ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="Hxq9HyApB30MzHis6edlLm" Bounds="622,1678,199,231" />
+          <Pad Id="JaJ78Axkam7QUAIwNGyAir" Bounds="140,1913,418,165" ShowValueBox="true" isIOBox="true" Value="This explains itself quite well, but I would like to point out that I have created a CreateLaserPoint node to simplify point creation. Use values between -1 and 1, but be aware that there is already a clamp in the data structure and you can't go beyond the capabilities of the laser.&#xD;&#xA;&#xD;&#xA;Initially the X and Y accuracy is 2^16 and R,G,B is 2^12. In other words 0..65535 and 0..4095 respectively.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PDmrA6s7BEiOUki39Svu1R" Bounds="836,1685,275,277" ShowValueBox="true" isIOBox="true" Value="As you may know, lasers are very inert by nature - galvanometers are physical objects. In order to draw sharp corners and have empty spaces between the areas to be drawn, some tricks are required. Most of the time it comes down to repeating the boundary points an arbitrary number of times (depending on the DACRate and the particular case). So MakeHollowBounds will take your segment and add some empty points (without colour) to its edges, RepeatBounds will do the same but without removing any colour, and RepeatLaserPoint will help to make a more distinct point.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PFIc4L0KQ3sPFjPL7K7bbb" Comment="" Bounds="186,1831,186,39" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="J8EMzt0LXgfNAqgb3Mb2mQ" Bounds="766,500,546,187" ShowValueBox="true" isIOBox="true" Value="Probably for safety reasons, too few dots sent to the laser will not be displayed! Make sure you send at least two chunks (which is more than 150 points if you have not fine-tuned your patch)!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">18</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="PIp6h7ce2PkPI6FGkfDejf" Name="Create" />
+        <Patch Id="CN6AAqOQGEUMPfdfiDjCPC" Name="Update" />
+        <ProcessDefinition Id="FeR3wzyS6TRPiExlgOH3tP">
+          <Fragment Id="JVMu3bCXD3oOQ1dY2pg8FX" Patch="PIp6h7ce2PkPI6FGkfDejf" Enabled="true" />
+          <Fragment Id="SyCgpYfu9jYNUGJU9i0gcw" Patch="CN6AAqOQGEUMPfdfiDjCPC" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="VWCIQS8YVE7Pi63ROnuwXr" Ids="QjGWZiHeTrQLsQVTqqXUxu,L6Tf90xiGD2OEP6jT3UGxo" />
+        <Link Id="QrmIJOPi4lMPW518EXOm79" Ids="R5b77RK3kwNQJ23kWDIUDu,UH8xGDV9qv2Mm1RGFn3ryw" />
+        <Link Id="Tr8AKP5M28ZLmNMiBL5T5n" Ids="RqnsuSsOVWXMf59n4f0e9r,KulZPwmTbHdORdfKYxtxjb" />
+        <Link Id="KbLUFIfqNNIQHxuMJqZJVt" Ids="J878AS5jYf0OlvSDv6PdZq,J6cUFg9C4zQLFUJ2nWcGdm" />
+        <Link Id="E5mCX8tmyPCOGWj5s9iscY" Ids="VQucJSi6XGjPlBoscmdAxv,VyPi9cfOFxSPhRaeZy45JX" />
+        <Link Id="JxghkgVoxD6PR8mBnth8SR" Ids="CZLrpoXgLxTP9AKX5PC2AD,VffuEsmwM4iQRx8d9pexDa" />
+        <Link Id="RIzxnNdp1eBOQySVYPLwq7" Ids="VuG2J3VCWWCPMOZoa2rXed,I0Uc1yVgkm5LlTXPiBJOzf" />
+        <Link Id="F2gMOZsnYtfQKtqrgXXILn" Ids="BgUsKXq0kx0NmVMMOB8qw4,G4zJncrqTcXLteEItX03P2" />
+        <Link Id="SPNs32Gz0PHMfb5VMVUNMk" Ids="SoDHQJXaFd1POPMJrR5fn0,R1oyNirUMMmQOTPOvdIJdF" />
+        <Link Id="VPSlPHYBuLVNJtMbAF7Bk2" Ids="Vbo0Ln4RbUoL9Ht3wDh3I2,GVwgOFRqMWrMo1UJly5gCG" />
+        <Link Id="UYn2Zc0hWQaOp4Fd3GUaEz" Ids="GUFatdzNyhVOcS0zdmgm2T,U90LPwBmKEKPysDGX4rHhQ" />
+        <Link Id="MSOjQej4jrhLUexAwEu2Ci" Ids="QQ5phAjPa7dNDow6tqx0xA,BzmBbV8ecSSPOghHpIBx7c" />
+        <Link Id="Ljz9iFUVzzuLXxUk32R8lh" Ids="B4RSvujqDeXO9lfuU1Lssd,Ndf890owixhO9HAgQHfu70" />
+        <Link Id="CNPkNKnvvbMNPhpLVdofzc" Ids="CdD3LeHAb1VPPoPqduhKLW,Hb6BjJ2NGMtQCY1tpoJM5r" />
+        <Link Id="QtVwSLwSMWxNNi8lxt5g4V" Ids="Kpou8HkL13eNlht5nv3OhV,GPTJoU2QE7TMbyLVKyupEL" />
+        <Link Id="S2LPhecIceSOhNo2236Ttx" Ids="ATcvb8TouUDQUvynIULa30,IwYRrM7awQFQPAOKUtfJEP" />
+        <Link Id="NbTfP8NcOWMQCTwDrclcAo" Ids="OOrg1g8yIfyPsybvXq2BCH,SAIWzaOGDMeOeV3uvgb4ya" />
+        <Link Id="FHzDFhI1OnsLMkUtrsuWya" Ids="SFoc8wXhfq2L9a4KKzdRmc,Vx5jCe1nlieOyBZnPbEz8e" />
+        <Link Id="T7sAWjDZsAIMtc1aQJmcJD" Ids="KQd0lEACJezOxfXpYmNvgC,D3ObAjp1f0vOFlYTv9IONg" />
+        <Link Id="JyBrdghyXflLhFuG3Qxstm" Ids="Qt3FkmkBjPmO1ax3FLC9ox,Oz4umn0kchSMxRD7sCX3IT" />
+        <Link Id="OY8D5uBGy0MQAuU7Tg7lMW" Ids="G7aJdgi1OLpO8GOWpauZ0I,Dn5Qa7eDQpxOQBmd0zUM4r" />
+        <Link Id="Fs8DkMTKpkIMcbBlP2eKQy" Ids="Akvi0PgruHQMAuwXEFSSGx,DAgFJAFxbyxOh98Z1C2Avn" />
+        <Link Id="C5qx4auYgzHLE2V65dzREO" Ids="MMNnxr3cNhnNbqy5NXHsM4,GCG8wArb1jaPy9tzS1LhjO" />
+        <Link Id="NkClDdEGTmaLhplWOLcFUa" Ids="PcPxptzRMFeNHw7hOXKfrB,Tgd0H0Y8f5eNZzSMfq6882" />
+        <Link Id="NmfHL26Ci8mOjDqvDjA4an" Ids="NTsm6zazhnuLhUsYEGFzOx,EzaN56XfhLiPuRoIpOHsSU" />
+        <Link Id="FkmVLoyQSt7L1KXh7S1eL4" Ids="Jhs6QSSiQVmLsES4dJ3hjv,Tzh5MbNw6kwQdsonLmMcYE" />
+        <Link Id="GxcMFvdVemYPglPNcBfI5y" Ids="RpbsFoGvjOpMD7wcK1OIpu,C5PwFozcqhVPbXld0W1N2V" />
+        <Link Id="T0HERMC66qkPlO8PAjvHPH" Ids="RRLRMDuhyrfMBUmWzeCpvR,DJzMyEaQNIKNiyGRVKgjMj" />
+        <Link Id="LTk6s43X3PVNFuuVpsqxXk" Ids="GwZrc0MWwi3OWLttrhWHcV,RI58vhuk7MSPZquIUENQEb" />
+        <Link Id="VxbxMUzW3L9Oi0XcFuDrFE" Ids="Et4NS8gBmA1OVrbYIhWtCG,E7c6X5DZaLrN3AmLXVLp0W" />
+        <Link Id="Tre44HLfDBhNJzpu1dYu2K" Ids="LamqG02zdAEM1d5956tvv4,JkEiOBldAjEO1RIujSxjae" />
+        <Link Id="DFw9E7V7JneQTwySZKB8RB" Ids="Cg8gRL0n3nRPfmC0bLbUYe,POjRRzetadDO941PBn55ME" />
+        <Link Id="AaADXj4eKsOODsH5TOrRkJ" Ids="ELtymmA4fgKLT58TEipuWK,OwJytfgNAqhPNAKkyOKyxY" />
+        <Link Id="GkOCFORQWs7OeLplRjzezN" Ids="D11UdF0ZqvkNn7vDBMnD4e,VBiwNzCI0f9N6Z937EVBHP" />
+        <Link Id="QiabvmlAJNsP1LYEwWtSj2" Ids="D1zUTY7wkTpLb4HjK0VYCN,EuGVYWpoiPUNcaFemwn7qc" />
+        <Link Id="RNq4gLBNgWkNcgzIpCDmij" Ids="LpNtXXqKrQSMdxv1FQWbB9,DnZF5XUhXDXLygtD704lmW" />
+        <Link Id="RJe6DwrtKpuMk8es0us1MG" Ids="Fhd4qrMpUFtNJgCN8TGTyO,S5dJG1n2inuOWw9J5E5SqZ" />
+        <Link Id="IUxHHWwqtJxOuejVSxMOlm" Ids="AiBMsvy1oUwPKsqxn93KE2,ElR1flaUTNzQLpCbt03j3k" />
+        <Link Id="TFT5agGRn5HPjJtOAPigdk" Ids="N01ZKnAwQJyOiiJBOLarXd,NaxOWD1DSbkNfg8carvSoT" />
+        <Link Id="MnJojvPshV9P3f3Xy3wuHo" Ids="BZqrxsX16eWNLZyBZQGVOt,V0fe8q3g2iGPqeCPy6AxaU" />
+        <Link Id="VnCWkz6xBKkNGpFfUWWWsf" Ids="LeWgMKu7XAeP20IizfKV1N,DJezr7ADIWFLyMgaVNok2P" />
+        <Link Id="G2pCpSCIx8ePffWcC48FjT" Ids="KuiIBy4ul0NPh7XgkAf1a5,VACikjFetvqQRom3d70WYG" />
+        <Link Id="QqpON5Q5oJpMLGGteVnM5W" Ids="J9uyBXmfXItPh9qhsLn8yZ,KzMKReVaIVXOv23hqAHCM1" />
+        <Link Id="OYF6l8UYXXdOW4sgueHB4u" Ids="SjjAD8VN9RVQJp2dEt5OeE,PFIc4L0KQ3sPFjPL7K7bbb" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="Dx5DkV8YoPsMu0y8XYWwma" Location="VL.Devices.LaserCube" Version="0.0.0" />
+</Document>
