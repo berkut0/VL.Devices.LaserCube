@@ -18,7 +18,8 @@ jobs:
     steps:
     - name: Git Checkout
       uses: actions/checkout@master
-#      with:
+      with:
+        submodules: true
 #        lfs: 'true'
     
     - name: Setup MSBuild.exe
