@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Hej6ruCvZVoM7P0tnGyPmb" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="UWIou9Yjp3QLXKhVdzQDek" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Hej6ruCvZVoM7P0tnGyPmb" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="UWIou9Yjp3QLXKhVdzQDek" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="HANFcoIebHfPVNEKPcjmtN">
     <Canvas Id="SB8Dc4BjQ8DPMY2bewGsFF" DefaultCategory="Devices.LaserCube" CanvasType="FullCategory">
       <!--
@@ -1651,6 +1651,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DNN8av22rZ2NGZspTsb29V" Location="VL.Devices.LaserCube" Version="0.0.0" />
   <PlatformDependency Id="R8gViP7XMQgL5J985rTgMA" Location="./src/LaserCubeSharp/LaserCubeSharp/bin/Debug/net8.0/LaserCubeSharp.dll" />
 </Document>
