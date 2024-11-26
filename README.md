@@ -2,4 +2,5 @@ A set of nodes to control the Wickedlasers LaserCube. More information in the he
 
 ![](media/overview.png?raw=true)
 
-![](media/LaserCube.mp4)
+
+https://github.com/berkut0/VL.Devices.LaserCube/raw/refs/heads/master/media/LaserCube.mp4
