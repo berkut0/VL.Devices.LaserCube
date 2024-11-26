@@ -31,7 +31,7 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.43
       with:
         csproj: src\LaserCubeSharp\LaserCubeSharp\LaserCubeSharp.csproj
-        nuspec: deployment\VL.NewLibrary.Template.nuspec
+        nuspec: deployment\VL.Devices.LaserCube.nuspec
 
         # Fill the Icon file
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
