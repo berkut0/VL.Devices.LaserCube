@@ -20,7 +20,6 @@ jobs:
       uses: actions/checkout@master
       with:
         submodules: true
-#        lfs: 'true'
     
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v2
