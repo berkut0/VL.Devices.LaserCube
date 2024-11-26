@@ -1,0 +1,3 @@
+[submodule "src/LaserCubeSharp"]
+	path = src/LaserCubeSharp
+	url = https://github.com/berkut0/LaserCubeSharp.git
